@@ -5,6 +5,10 @@ import ExplorePage from './components/ExplorePage';
 import Dashboard from './components/Dashboard';
 import SignUpModal from './components/modals/SignUpModal';
 import UploadModal from './components/modals/UploadModal';
+import About from './components/About';
+import Services from './components/Services';
+import Contact from './components/Contact';
+
 
 import FooterNav from './components/FooterNav';
 import HeadNav from './components/HeadNav';
@@ -146,6 +150,10 @@ const AppContent = () => {
   path="/uploadbook"
   element={token ? <UploadBook /> : <Navigate to="/login" />}
 />
+<Route path="/about" element={<About />} />
+<Route path="/services" element={<Services />} />
+<Route path="/contact" element={<Contact />} />
+
 <Route
   path="/userhistory"
   element={token ? <UserHistory /> : <Navigate to="/login" />}
