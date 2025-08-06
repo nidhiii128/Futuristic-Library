@@ -10,14 +10,14 @@ Welcome! Thanks for being here 😊
    git clone https://github.com/your-username/Futuristic-Library.git
 3.**Create a new branch**:
 
-   '''bash
+   ```bash
 git checkout -b feature-branch
 4.**Make your changes and commit them**:
 
-   '''bash
+   ```bash
 git commit -m "Add: [your change description]"
 5.**Push to your fork**:
 
-   '''bash
+   ```bash
 git push origin feature-branch
 6.**Open a Pull Request (PR) on this original repo**.
